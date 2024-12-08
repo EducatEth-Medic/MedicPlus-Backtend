@@ -74,7 +74,11 @@ export class AppController {
   @ApiOperation({ summary: 'Grant full permission to a recipient' })
   @ApiResponse({ status: 200, description: 'Full permission granted' })
   async grantFullPermission(@Body() body: GrantPermissionDto) {
-    return this.appService.grantFullPermission(body.recipient, body.expiration);
+    return this.appService.grantFullPermission(
+      body.patient,
+      body.recipient,
+      body.expiration,
+    );
   }
 
   @Post('grant-case-permission')
@@ -82,6 +86,7 @@ export class AppController {
   @ApiResponse({ status: 200, description: 'Case permission granted' })
   async grantCasePermission(@Body() body: GrantCasePermissionDto) {
     return this.appService.grantCasePermission(
+      body.patient,
       body.recipient,
       body.caseId,
       body.expiration,

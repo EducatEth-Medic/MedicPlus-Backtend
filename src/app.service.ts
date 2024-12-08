@@ -110,8 +110,13 @@ export class AppService {
     return tx;
   }
 
-  async grantFullPermission(recipient: string, expiration: number) {
+  async grantFullPermission(
+    patient: string,
+    recipient: string,
+    expiration: number,
+  ) {
     const tx = await this.mpManagerContract.grantFullPermission(
+      patient,
       recipient,
       expiration,
     );
@@ -120,6 +125,7 @@ export class AppService {
   }
 
   async grantCasePermission(
+    patient: string,
     recipient: string,
     caseId: number,
     expiration: number,

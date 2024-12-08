@@ -83,6 +83,13 @@ export class GrantPermissionDto {
     required: true,
     default: '',
   })
+  patient: string;
+
+  @ApiProperty({
+    type: String,
+    required: true,
+    default: '',
+  })
   recipient: string;
 
   @ApiProperty({
@@ -94,6 +101,13 @@ export class GrantPermissionDto {
 }
 
 export class GrantCasePermissionDto {
+  @ApiProperty({
+    type: String,
+    required: true,
+    default: '',
+  })
+  patient: string;
+
   @ApiProperty({
     type: String,
     required: true,
