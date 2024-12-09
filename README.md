@@ -8,9 +8,29 @@ Además, **Medic+** integra un innovador asistente de inteligencia artificial ca
 
 **Medic+** no solo empodera a los pacientes, sino que también establece un nuevo estándar en la gestión de información médica al combinar seguridad, accesibilidad e innovación tecnológica.
 
-## Alineado con los siguientes ODS
+### Tecnologías Utilizadas
+
+Este proyecto utiliza las siguientes tecnologías:
+
+- **Node.js**: Entorno de ejecución para JavaScript que permite construir aplicaciones del lado del servidor.
+- **NestJS**: Framework para construir aplicaciones eficientes y escalables del lado del servidor con Node.js.
+- **TypeScript**: Superconjunto de JavaScript que añade tipos estáticos y otras características avanzadas.
+- **Ethers.js**: Librería para interactuar con la blockchain de Ethereum, utilizada para la gestión de contratos inteligentes.
+- **Jest**: Framework de pruebas de JavaScript que permite realizar tests unitarios y de integración.
+- **Swagger**: Herramienta para documentar APIs RESTful de manera interactiva.
+- **Crypto-JS**: Librería de JavaScript que proporciona algoritmos de cifrado estándar.
+- **Pinata**: Servicio para almacenar y gestionar archivos en la red IPFS (InterPlanetary File System).
+
+### Documentacion de las APIs desarrolladas
+- **APIs Documentation**: Medic+ cuenta con una documentacion de sus APIs para facilitar la adopcion y aporte de los entusiastas
+![Documentacion de APIs](Documentacion-APIs.jpeg)
+
+![Documentacion de APIs - ejemplo de uso](Documentacion-APIs-ejemplo-de-uso.jpeg)
+
 
 ### Contribuir
+
+Estamos abiertos a contribuciones de la comunidad. Si deseas colaborar, por favor sigue los pasos descritos anteriormente para clonar el repositorio e instalar las dependencias. Asegúrate de seguir las mejores prácticas de desarrollo y de revisar el código antes de enviar un pull request.
 
 1. Clona este repositorio:
    ```bash
@@ -36,16 +56,3 @@ Además, **Medic+** integra un innovador asistente de inteligencia artificial ca
    ```bash
    npm run start:dev
    ```
-
-## Documentacion de las APIs desarrolladas
-- **APIs Documentation**: Medic+ cuenta con una documentacion de sus APIs para facilitar la adopcion y aporte de los entusiastas
-![Documentacion de APIs](Documentacion-APIs.jpeg)
-
-![Documentacion de APIs - ejemplo de uso](Documentacion-APIs-ejemplo-de-uso.jpeg)
-
-
-
-## Contribuciones
-
-Estamos abiertos a contribuciones de la comunidad. Si deseas colaborar, por favor sigue los pasos descritos anteriormente para clonar el repositorio e instalar las dependencias. Asegúrate de seguir las mejores prácticas de desarrollo y de revisar el código antes de enviar un pull request.
-
