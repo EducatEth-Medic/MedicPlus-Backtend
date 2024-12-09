@@ -39,9 +39,9 @@ Además, **Medic+** integra un innovador asistente de inteligencia artificial ca
 
 ## Documentacion de las APIs desarrolladas
 - **APIs Documentation**: Medic+ cuenta con una documentacion de sus APIs para facilitar la adopcion y aporte de los entusiastas
-![Documentacion de APIs](./res/Documentacion-APIs.jpeg)
+![Documentacion de APIs](Documentacion-APIs.jpeg)
 
-![Documentacion de APIs - ejemplo de uso](./res/Documentacion-APIs-ejemplo-de-uso.jpeg)
+![Documentacion de APIs - ejemplo de uso](Documentacion-APIs-ejemplo-de-uso.jpeg)
 
 
 
